@@ -1,0 +1,7 @@
+NIM : 12207087
+Nama : Abdul Syakur
+Kelas : 12.3A.37
+
+    Link Github : https://github.com/tugasprojek
+    
+    Link Repository : https://github.com/tugasprojek/latihan-git.git
