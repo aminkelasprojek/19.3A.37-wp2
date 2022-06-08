@@ -10,12 +10,13 @@ class Latihan1 extends CI_Controller {
         echo "Selamat datang.... selamat belajar web programming";
         
     }
-    public function penjumlahan($n1,$n2){
+    public function penjumlahan($n1,$n2)
+    {
 
         $this->load->model('M_latihan1');
 
-        //$hasil = $this->M_latihan1->jumlah($n1, $n2);
-        //echo "Hasil penjumlahan dari".$n1 ." + $n2 = $hasil";
+        $hasil = $this->M_latihan1->jumlah($n1, $n2);
+        echo "Hasil penjumlahan dari".$n1 ." + $n2 = $hasil";
 
         $data = array(
             'nilai1'  => $n1,
